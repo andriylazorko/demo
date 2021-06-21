@@ -10,6 +10,9 @@ git checkout -- file.txt (відміняє зміни в unstaged)
 git checkout .
 clean -xdf
 git reset -- file.txt
-git reset HEAD~1
+git reset HEAD~1 (..переводить а анстейдж (по діфолту))
 git commit --amend -m "file.txt"
+git reset --soft HEAD~1 (..переводить в індекс)
+git reset --mixed HEAD~1 (..переводить а анстейдж)
+git reset --hard HEAD~1 (стирає останній комміт повністю)
 
