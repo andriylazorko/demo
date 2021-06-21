@@ -1,27 +1,15 @@
-Empty spaces, what are we living for?
-Abandoned places, I guess we know the score, on and on
-Does anybody know what we are looking for?
-Another hero, another mindless crime
-Behind the curtain, in the pantomime
-Hold the line
-Does anybody want to take it anymore?
+git status
+git log
+git clone git@github.com:andriylazorko/demo.git
+git add .
+git add file.txt
+git commit -m "file.txt"
+git push
+git show
+git checkout -- file.txt (відміняє зміни в unstaged)
+git checkout .
+clean -xdf
+git reset -- file.txt
+git reset HEAD~1
+git commit --amned -m "file.txt"
 
-The show must go on
-The show must go on, yeah
-Inside my heart is breaking
-My makeup may be flaking
-But my smile, still, stays on
-
-Whatever happens, I'll leave it all to chance
-Another heartache, another failed romance, on and on
-Does anybody know what we are living for?
-I guess I'm learning
-I must be warmer now
-I'll soon be turning, round the corner now
-Outside the dawn is breaking
-But inside in the dark I'm aching to be free
-
-The show must go on
-The show must go on
-Inside my heart is breaking
-My makeup may…
