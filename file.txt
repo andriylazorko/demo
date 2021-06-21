@@ -11,5 +11,5 @@ git checkout .
 clean -xdf
 git reset -- file.txt
 git reset HEAD~1
-git commit --amned -m "file.txt"
+git commit --amend -m "file.txt"
 
