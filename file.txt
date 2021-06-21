@@ -20,4 +20,5 @@ git checkout -b feature
 git checkout main
 git merge feature
 git merge --abort
-
+git checkout --Xours --Xtheirs
+git rebase
