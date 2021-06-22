@@ -26,7 +26,7 @@ git tag version1
 git push --tags
 git stash save "description"
 git stash list
-git stash pop
-git stash apply stash@{0}
-git stash drop
+git stash pop stash@{0} (вставвити в анстейдж і видалити)
+git stash apply stash@{0} (вставвити в анстейдж і залиш. в stash)
+git stash drop stash@{0} (видалити)
 
