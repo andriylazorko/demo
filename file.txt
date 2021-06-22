@@ -21,4 +21,5 @@ git checkout main
 git merge feature
 git merge --abort
 git checkout --Xours --Xtheirs
-git rebase
+git rebase master server (Head буде вказівником server)
+git tag version1
