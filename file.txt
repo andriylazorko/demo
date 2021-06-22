@@ -29,4 +29,9 @@ git stash list
 git stash pop stash@{0} (вставвити в анстейдж і видалити)
 git stash apply stash@{0} (вставвити в анстейдж і залиш. в stash)
 git stash drop stash@{0} (видалити)
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:andriylazorko/demo.git
+git push --set-upstream origin feature
+
 
