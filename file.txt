@@ -23,3 +23,10 @@ git merge --abort
 git checkout --Xours --Xtheirs
 git rebase master server (Head буде вказівником server)
 git tag version1
+git push --tags
+git stash save "description"
+git stash list
+git stash pop
+git stash apply
+git stash drop
+
